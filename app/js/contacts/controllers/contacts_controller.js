@@ -1,7 +1,7 @@
   app.controller('ContactsController', ['$scope', '$http', function($scope, $http) {
     $scope.contacts = [];
     $scope.errors = [];
-    $scope.newcontact = null;
+    $scope.newContact = null;
 
     $scope.getAll = function() {
       $http.get('/api/contact')
@@ -45,4 +45,3 @@
         });
     };
   }]);
-};

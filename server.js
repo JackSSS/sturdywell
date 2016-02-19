@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var express = require('express');
 var app = express();
-var appRouter = require(__dirname + '/routes/app_routes');
+var appRouter = require(__dirname + '/routes/contact_routes');
 
 mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/sturdywell');
 
