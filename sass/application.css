@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: helvetica; }
+
+header {
+  background: #E5E199;
+  height: 110px;
+  margin: 0; }
+  header .inner {
+    max-width: 1020px;
+    margin: 0 auto;
+    position: relative; }
+    header .inner .logo {
+      float: left;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-right: 5%;
+      margin-left: 5%;
+      width: 30%;
+      height: 30%; }
+    header .inner .menu {
+      display: none;
+      width: 40px;
+      position: absolute;
+      right: 5%;
+      top: 28px; }
+    header .inner ul li:hover {
+      color: #fff; }
+    header .inner ul li {
+      display: inline-block;
+      float: right;
+      margin-right: 5%;
+      margin-top: 40px; }
+
+main {
+  max-width: 1020px;
+  margin: 2.5% auto; }
+  main .banner {
+    max-width: 100%; }
+  main .sub-banners li {
+    list-style-type: none;
+    float: right;
+    width: 30%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%; }
+    main .sub-banners li img {
+      max-width: 100%; }
+
+footer {
+  clear: both;
+  height: 150px;
+  background: #7E7C54; }
+
+@media (max-width: 768px) {
+  header {
+    height: 80px; }
+
+  header .inner .logo {
+    text-align: center;
+    width: 30%; }
+
+  .inner ul {
+    display: none; }
+  .inner img.menu {
+    display: block; }
+
+  main {
+    margin-left: 2.5%;
+    margin-right: 2.5%; }
+    main ul.sub-banners li {
+      width: 100%;
+      margin: 0; }
+      main ul.sub-banners li img {
+        width: 100%; } }
+@media (max-width: 768px) and (max-width: 634px) {
+  header .inner .logo {
+    text-align: center;
+    width: 35%; } }
+@media (max-width: 768px) and (max-width: 419px) {
+  header .inner .logo {
+    text-align: center;
+    width: 50%; } }
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #CCC; }
+
+form div + div {
+  margin-top: 1em; }
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 90px;
+  text-align: right; }
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+  /* To give the same size to all text field */
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999; }
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000; }
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+  /* To give enough room to type some text */
+  height: 5em;
+  /* To allow users to resize any textarea vertically
+     It does not work on all browsers */
+  resize: vertical; }
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px;
+  /* same size as the label elements */ }
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em; }
+
+/*# sourceMappingURL=application.css.map */
