@@ -36,7 +36,7 @@ header {
     ul {
 
       li:hover {
-        color: #fff;
+        color: #a8a8a8;
       }
       
       li {
@@ -80,13 +80,13 @@ main {
 }
 
 a {
-  text-decoration: none;
+  color: inherit;
 }
 
 footer {
   clear: both;
   height: 150px;
-  background: $secondary;
+  background-color: rgba(200,200,200,.4);
 }
 
 @media (max-width: 768px) {

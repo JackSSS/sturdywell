@@ -74,7 +74,7 @@ header {
       right: 5%;
       top: 28px; }
     header .inner ul li:hover {
-      color: #fff; }
+      color: #a8a8a8; }
     header .inner ul li {
       display: inline-block;
       float: right;
@@ -100,12 +100,12 @@ main {
       transition-duration: 0.4s; }
 
 a {
-  text-decoration: none; }
+  color: inherit; }
 
 footer {
   clear: both;
   height: 150px;
-  background: #7E7C54; }
+  background-color: rgba(200, 200, 200, 0.4); }
 
 @media (max-width: 768px) {
   header {
