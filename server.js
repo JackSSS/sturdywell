@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var express = require('express');
 var app = express();
-var contactRouter = require(__dirname + '/routes/contact_routes');
+var contactRouter = require(__dirname + '/routes/contact_router');
 
 mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/contact');
 
