@@ -19,7 +19,8 @@
     "url": "https://github.com/JackSSS/sturdywell/issues"
   },
   "engines": {
-  "node": "4.2.3"
+  "node": "4.2.3",
+  "npm": "2.14.7"
   },
   "homepage": "https://github.com/JackSSS/sturdywell#readme",
   "dependencies": {
