@@ -1,2 +1,4 @@
-.sass-cache/
-assets/
+db/
+node_modules/
+test/
+/*.env
