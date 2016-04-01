@@ -21,6 +21,7 @@ header {
     max-width: $max-width;
     margin: 0 auto;
     position: relative;
+    border-bottom: 2px #fff;
     
     .logo {
       float: left;
@@ -59,7 +60,7 @@ header {
 main {
   max-width: $max-width;
   margin: 2.5% auto;
-  margin-top: 15%;
+  margin-top: 12%;
   
   .banner {
     max-width: 100%;
@@ -100,7 +101,7 @@ footer {
 footer p {
 	position: relative;
 	top: 50%;
-	left:50%;
+	left:45%;
 }
 
 
@@ -122,6 +123,7 @@ footer p {
   }
   
   main {
+  	margin-top: 20%;
     margin-left: 2.5%;
     margin-right: 2.5%;
     
@@ -151,7 +153,7 @@ section {
 }
 
 .contact_form ul {
-    width:750px;
+    width:100%;
     list-style-type:none;
     list-style-position:outside;
     margin:0px;
@@ -198,10 +200,11 @@ section {
 	border-radius: .5em;
 	height: 2.5em;
 	margin-left:156px;
+	margin-top: 2em;
 }
 
 .contact_form input, .contact_form textarea { 
-    border:1px solid;
+	
     box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
     border-radius:.5em;
 }

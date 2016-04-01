@@ -64,7 +64,8 @@ header {
   header .inner {
     max-width: 1020px;
     margin: 0 auto;
-    position: relative; }
+    position: relative;
+    border-bottom: 2px #fff; }
     header .inner .logo {
       float: left;
       margin-top: 10px;
@@ -90,7 +91,7 @@ header {
 main {
   max-width: 1020px;
   margin: 2.5% auto;
-  margin-top: 15%; }
+  margin-top: 12%; }
   main .banner {
     max-width: 100%; }
   main .sub-banners li {
@@ -117,7 +118,7 @@ footer {
 footer p {
   position: relative;
   top: 50%;
-  left: 50%; }
+  left: 45%; }
 
 @media (max-width: 768px) {
   header {
@@ -133,6 +134,7 @@ footer p {
     display: block; }
 
   main {
+    margin-top: 20%;
     margin-left: 2.5%;
     margin-right: 2.5%; }
     main ul.sub-banners li {
@@ -152,7 +154,7 @@ section {
   padding: 1em; }
 
 .contact_form ul {
-  width: 750px;
+  width: 100%;
   list-style-type: none;
   list-style-position: outside;
   margin: 0px;
@@ -196,10 +198,10 @@ section {
   border: 1px solid;
   border-radius: .5em;
   height: 2.5em;
-  margin-left: 156px; }
+  margin-left: 156px;
+  margin-top: 2em; }
 
 .contact_form input, .contact_form textarea {
-  border: 1px solid;
   box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
   border-radius: .5em; }
 
