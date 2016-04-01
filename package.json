@@ -1,7 +1,7 @@
 {
-  "name": "single-source-rest-api",
+  "name": "sturdywell",
   "version": "1.0.0",
-  "description": "single source rest api",
+  "description": "sturdywell app",
   "main": "server.js",
   "directories": {
     "test": "test"
@@ -11,14 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JackSSS/mongo_backed_rest_api.git"
+    "url": "git+https://github.com/JackSSS/sturdywell.git"
   },
-  "author": "",
+  "author": "JackSSS",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JackSSS/mongo_backed_rest_api/issues"
+    "url": "https://github.com/JackSSS/sturdywell/issues"
   },
-  "homepage": "https://github.com/JackSSS/mongo_backed_rest_api#readme",
+  "engines": {
+  "node": "4.2.3"
+  },
+  "homepage": "https://github.com/JackSSS/sturdywell#readme",
   "dependencies": {
     "body-parser": "^1.14.1",
     "express": "^4.13.3",

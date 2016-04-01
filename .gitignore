@@ -3,3 +3,4 @@ assets/
 build/
 node_modules/
 test/
+/*.env
