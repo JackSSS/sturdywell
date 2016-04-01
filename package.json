@@ -1,34 +1,35 @@
 {
-  "name": "studrywell",
+  "name": "single-source-rest-api",
   "version": "1.0.0",
-  "description": "studrywell remodel",
+  "description": "single source rest api",
   "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "test",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JackSSS/sturdywell.git"
+    "url": "git+https://github.com/JackSSS/mongo_backed_rest_api.git"
   },
-  "author": "JackSSS",
-  "license": "ISC",
+  "author": "",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JackSSS/sturdywell/issues"
+    "url": "https://github.com/JackSSS/mongo_backed_rest_api/issues"
   },
-  "homepage": "https://github.com/JackSSS/sturdywell#readme",
+  "homepage": "https://github.com/JackSSS/mongo_backed_rest_api#readme",
   "dependencies": {
-    "body-parser": "^1.15.0",
+    "body-parser": "^1.14.1",
     "express": "^4.13.3",
-    "mongoose": "^4.2.5",
-    "nodemailer": "^2.0.0"
+    "mongoose": "^4.2.5"
   },
   "devDependencies": {
     "angular": "^1.4.8",
     "angular-mocks": "^1.4.8",
     "chai": "^3.4.1",
     "chai-http": "^1.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^3.9.0",
     "gulp-concat-css": "^2.2.0",
     "gulp-minify-css": "^1.2.2",
     "gulp-sass": "^2.1.0",

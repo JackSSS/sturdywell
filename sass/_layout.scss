@@ -80,7 +80,7 @@ main {
       }
 
       img:hover {
-        opacity: 0.6;
+      	opacity: 0.6;
         transition-duration: .4s
       }
     }
@@ -98,9 +98,9 @@ footer {
 }
 
 footer p {
-  position: relative;
-  top: 50%;
-  left:50%;
+	position: relative;
+	top: 50%;
+	left:50%;
 }
 
 
@@ -138,8 +138,8 @@ footer p {
 }
 
 section {
-  border: 0;
-  margin: 0;
+	border: 0;
+	margin: 0;
 }
 
 .contact_form {
@@ -191,13 +191,13 @@ section {
     padding:5px 8px;
 }
 .contact_form textarea {
-  padding:8px; width:50%;
+	padding:8px; width:50%;
 }
 .contact_form button {
-  border: 1px solid;
-  border-radius: .5em;
-  height: 2.5em;
-  margin-left:156px;
+	border: 1px solid;
+	border-radius: .5em;
+	height: 2.5em;
+	margin-left:156px;
 }
 
 .contact_form input, .contact_form textarea { 

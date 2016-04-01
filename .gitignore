@@ -1,4 +1,5 @@
-img/
-node_modules/
-db/
-build/
+<<<<<<< HEAD
+=======
+.sass-cache/
+>>>>>>> 64d68b9bbe6514343376680e30a7e77a152aafad
+assets/

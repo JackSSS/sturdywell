@@ -1,3 +1,4 @@
+module.exports = function(app) {
   app.controller('ContactsController', ['$scope', '$http', function($scope, $http) {
     $scope.contacts = [];
     $scope.errors = [];
@@ -28,7 +29,7 @@
         .then(function(res) {
           console.log('this contact has a been modified');
         }, function(err) {
-          $scope.errors.push('could not get contact: ' + contact.name);
+          $scope.errors.push('could not get contact: ' + contact.name + ' to dojo');
           console.log(err.data);
         });
     };
@@ -45,3 +46,4 @@
         });
     };
   }]);
+};
