@@ -1,4 +1,6 @@
 db/
+app/
 node_modules/
 test/
 /*.env
+.DS_Store
