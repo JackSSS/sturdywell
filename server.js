@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 var contactRouter = require(__dirname + '/routes/contact_router');
 
-mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/contact');
+// mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/contact');
 
 app.use(express.static(__dirname + '/build'));
 
