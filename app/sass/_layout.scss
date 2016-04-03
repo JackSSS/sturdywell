@@ -252,7 +252,7 @@ button.submit:active {
     width: 35%;
   }
 }
-@media (max-width: 419px) {
+@media (max-width: 419px), handheld {
   header .inner .logo {
     text-align: center;
     width: 50%;
