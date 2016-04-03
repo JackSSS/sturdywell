@@ -5,7 +5,7 @@ var contactRouter = require(__dirname + '/routes/contact_router');
 
 mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/contact');
 
-app.use(express.static('build'));
+app.use(express.static(__dirname + '/build'));
 
 app.use('/api', contactRouter);
 
