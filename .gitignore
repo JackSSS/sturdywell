@@ -1,5 +1,4 @@
 db/
-app/
 node_modules/
 test/
 /*.env

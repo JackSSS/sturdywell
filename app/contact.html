@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sturdywell</title>
+  <link rel="stylesheet" type="text/css" href="application.css">
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html"><img class="logo" src="assets/sturdywell.png" /></a>
+      
+      <img class="menu" src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" />
+      
+      <ul class="nav">
+        <a href="contact.html"><li>Contact</li></a>
+        <a href="cart.html"><li>Cart</li></a>
+        <a href="product.html"><li>Product</li></a>
+        <a href="index.html"><li>Home</li></a>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <form class="contact_form" method="post" action="/contact" accept-charset="utf8">
+      <input type="hidden" name="utf8" value='✓'>
+      <ul>    
+        <li>
+          <h2>Contact Us</h2>
+          <span class="required_notification">* Required Field</span>
+        </li>
+        <li>
+          <label>Name * :</label>
+          <input id="name" name="name" placeholder="First and Last Name"tabindex="1" type="text" value="" />
+        </li>
+        <li>
+          <label>Email * :</label>
+          <input id="email" name="email" placeholder="email@example.com"tabindex="2" type="text" value="" />
+        </li>
+        <li>
+          <label>Subject  :</label>
+          <input id="subject" name="subject" placeholder="Subject here"tabindex="3" type="text" value="" />
+        </li>
+        <li>
+          <label>Message * :</label>
+          <textarea id="message" name="message" tabindex="4" cols="40" rows="6"></textarea>
+          <button type="submit" name="submit" class="button">Send Message</button>
+        </li>
+        
+      </ul>
+    </form>
+  </main>
+
+  <footer>
+    <p>JackSSS</p>
+  </footer>
+</body>
+</html>
