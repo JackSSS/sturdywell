@@ -3,6 +3,16 @@
 <head>
   <title>Sturdywell</title>
   <link rel="stylesheet" type="text/css" href="application.css">
+  <script>
+  $(document).ready(function() {
+
+    $('.mobile-nav').hide();
+
+    $('.menu').on('click', function() {
+      $('.mobile-nav').fadeIn('fast');
+    })
+  })
+  </script>
 </head>
 <header>
   <div class="inner">

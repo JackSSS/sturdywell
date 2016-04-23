@@ -3,6 +3,16 @@
 <head>
   <title>Sturdywell</title>
   <link rel="stylesheet" type="text/css" href="application.css">
+  <script>
+  $(document).ready(function() {
+
+    $('.mobile-nav').hide();
+
+    $('.menu').on('click', function() {
+      $('.mobile-nav').fadeIn('fast');
+    })
+  })
+  </script>
 </head>
 <body>
   <header>
@@ -20,6 +30,12 @@
     </div>
   </header>
   <main>
+    <ul class="mobile-nav">
+      <a href="contact.html"><li>Contact</li></a>
+      <a href="cart.html"><li>Cart</li></a>
+      <a href="product.html"><li>Product</li></a>
+      <a href="index.html"><li>Home</li></a>
+    </ul>
     <form class="contact_form" method="post" action="/contact" accept-charset="utf8">
       <input type="hidden" name="utf8" value='✓'>
       <ul>
