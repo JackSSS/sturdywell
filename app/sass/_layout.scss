@@ -97,10 +97,11 @@ footer p {
   position: relative;
   top: 50%;
   left:50%;
+  margin-left: -3.5em;
 }
 
 
-@media screen and (max-device-width: 768px) {
+@media (max-device-width: 768px) {
   header {
     height: 9em;
   }
@@ -246,13 +247,13 @@ button.submit:active {
 
 }
 
-@media screen and (max-device-width: 634px) {
+@media (max-device-width: 634px) {
   header .inner .logo {
     text-align: center;
     width: 24em;
   }
 }
-@media screen and (max-device-width: 419px), handheld {
+@media (max-device-width: 419px), handheld {
   header .inner .logo {
     text-align: center;
     width: 24em;
