@@ -13,7 +13,7 @@ body {
 header {
   position: fixed;
   width: 100%;
-  height: 110px;
+  height: 7em;
   margin: 0;
   background-color: rgba(200,200,200,.3);
 
@@ -55,7 +55,7 @@ header {
 main {
   max-width: $max-width;
   margin: 2.5% auto;
-  margin-top: 15%;
+  margin-top: 11em;
 
   .banner {
     max-width: 100%;
@@ -102,7 +102,7 @@ footer p {
 
 @media screen and (max-device-width: 768px) {
   header {
-    height: 10%;
+    height: 9em;
   }
   header .inner .logo {
     text-align: center;
@@ -251,16 +251,10 @@ button.submit:active {
     text-align: center;
     width: 24em;
   }
-  header {
-    height: 8.7%;
-  }
 }
 @media screen and (max-device-width: 419px), handheld {
   header .inner .logo {
     text-align: center;
     width: 24em;
-  }
-  header {
-    height: 8.7%;
   }
 }
