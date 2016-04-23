@@ -116,6 +116,9 @@ footer p {
     img.menu {
       display: block;
     }
+    img.menu:hover {
+      transform: rotate(90deg);
+    }
   }
 
   main {

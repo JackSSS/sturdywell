@@ -3,6 +3,17 @@
 <head>
   <title>Sturdywell</title>
   <link rel="stylesheet" type="text/css" href="application.css">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script>
+  $(document).ready(function() {
+
+    $('.mobile-nav').hide();
+
+    $('.menu').on('click', function() {
+      $('.mobile-nav').fadeIn('fast');
+    })
+  })
+  </script>
 </head>
   <body>
     <header>
@@ -20,6 +31,12 @@
       </div>
     </header>
     <main>
+      <ul class="mobile-nav">
+        <a href="contact.html"><li>Contact</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="cart.html"><li>Cart</li></a>
+        <a href="product.html"><li>Product</li></a>
+      </ul>
       <img class="banner" src="https://placeholdit.imgix.net/~text?txtsize=85&bg=000000&txt=1020%C3%97450&w=1020&h=450" />
       <ul class="sub-banners">
         <li><img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=000000&txt=300%C3%97400&w=300&h=400" /></li>
