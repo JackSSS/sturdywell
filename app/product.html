@@ -19,6 +19,7 @@
   </header>
 <main>
   <ul class="mobile-nav">
+    <span id="close">close</span>
     <a href="contact.html"><li>Contact</li></a>
     <a href="about.html"><li>About</li></a>
     <a href="cart.html"><li>Cart</li></a>
@@ -40,13 +41,6 @@
     <p>Sturdywell 2016</p>
   </footer>
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script>
-  $(document).ready(function() {
-    $('.mobile-nav').hide();
-    $('.menu').on('click', function() {
-      $('.mobile-nav').fadeIn('fast');
-    })
-  })
-  </script>
+  <script type=text/javascript src="mobile-nav.js"></script>
 </body>
 </html>

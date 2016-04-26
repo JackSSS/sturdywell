@@ -50,6 +50,14 @@
 	var sturdyApp = angular.module('SturdyApp', []);
 	__webpack_require__(2)(sturdyApp);
 
+	$(document).ready(function() {
+	  $('.mobile-nav').hide();
+	  $('.menu').on('click', function() {
+	    $('.mobile-nav').fadeIn('fast');
+	  });
+	});
+
+
 /***/ },
 /* 1 */
 /***/ function(module, exports) {

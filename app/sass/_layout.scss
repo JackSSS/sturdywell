@@ -250,6 +250,7 @@ button.submit:active {
 .mobile-nav a {
   width: 100%;
   text-align: center;
+  text-decoration: none;
 }
 .mobile-nav li:hover {
   opacity: 0.6;
@@ -261,6 +262,14 @@ button.submit:active {
   border: 1px solid black;
   padding: 3em;
 
+}
+
+span {
+  width: 100%;
+  text-align: center;
+  background-color: #800000;
+  padding: 1.5em;
+  color: white;
 }
 
 @media (max-device-width: 634px) {
