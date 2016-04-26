@@ -247,6 +247,22 @@ button.submit:active {
 
 }
 
+.mobile-nav a {
+  width: 100%;
+  text-align: center;
+}
+.mobile-nav li:hover {
+  opacity: 0.6;
+}
+.mobile-nav li {
+  font-size: 1.5em;
+  font-style: oblique;
+  background-color: white;
+  border: 1px solid black;
+  padding: 3em;
+
+}
+
 @media (max-device-width: 634px) {
   header .inner .logo {
     text-align: center;
