@@ -256,19 +256,18 @@ button.submit:active {
   opacity: 0.6;
 }
 .mobile-nav li {
-  font-size: 1.5em;
+  font-size: 2em;
   font-style: oblique;
   background-color: white;
   border: 1px solid black;
-  padding: 3em;
+  padding: 2em;
 
 }
 
 #close {
-  width: 100%;
-  text-align: center;
+  text-align: right;
   background-color: #800000;
-  padding: 1.5em;
+  padding: .5em;
   color: white;
 }
 
