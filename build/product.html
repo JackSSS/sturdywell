@@ -3,33 +3,20 @@
 <head>
   <title>Sturdywell</title>
   <link rel="stylesheet" type="text/css" href="application.css">
-  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script>
-  $(document).ready(function() {
-
-    $('.mobile-nav').hide();
-
-    $('.menu').on('click', function() {
-      $('.mobile-nav').fadeIn('fast');
-    })
-  })
-  </script>
 </head>
-<header>
-  <div class="inner">
-    <a href="index.html"><img class="logo" src="assets/sturdywell.png" /></a>
-
-    <img class="menu" src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" />
-
-    <ul class="nav">
-      <a href="contact.html"><li>Contact</li></a>
-      <a href="about.html"><li>About</li></a>
-      <a href="cart.html"><li>Cart</li></a>
-      <a href="index.html"><li>Home</li></a>
-    </ul>
-  </div>
-</header>
-
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html"><img class="logo" src="assets/sturdywell.png" /></a>
+      <img class="menu" src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" />
+      <ul class="nav">
+        <a href="contact.html"><li>Contact</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="cart.html"><li>Cart</li></a>
+        <a href="index.html"><li>Home</li></a>
+      </ul>
+    </div>
+  </header>
 <main>
   <ul class="mobile-nav">
     <a href="contact.html"><li>Contact</li></a>
@@ -49,7 +36,17 @@
     <li><img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=000000&txt=300%C3%97400&w=300&h=400" /></li>
   </ul>
 </main>
-
   <footer>
     <p>Sturdywell 2016</p>
   </footer>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('.mobile-nav').hide();
+    $('.menu').on('click', function() {
+      $('.mobile-nav').fadeIn('fast');
+    })
+  })
+  </script>
+</body>
+</html>
