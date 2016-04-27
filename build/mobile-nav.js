@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).load(function() {
   $('.mobile-nav').hide();
   $('.menu').on('click', function() {
     $('.mobile-nav').fadeIn('fast');
